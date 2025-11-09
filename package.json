@@ -1,0 +1,18 @@
+{
+  "name": "gharcare-backend",
+  "version": "1.0.0",
+  "description": "Backend for GharCare app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "mongoose": "^7.6.1",
+    "firebase": "^12.5.0",
+    "multer": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0"
+  }
+}

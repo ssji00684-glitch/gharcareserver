@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log('Twilio ENV:', process.env.TWILIO_SID, process.env.TWILIO_VERIFY_SID);
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
